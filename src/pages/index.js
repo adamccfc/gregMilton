@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Card from '../components/card'
 
 const IndexPage = () => (
   <Layout>
@@ -14,10 +15,13 @@ const IndexPage = () => (
           <Link to="/page-2/">Go to page 2</Link>
         </div>
         <div className="col-6">
-          <div className="card">
-            <div className="card__tag">Stonework</div>
-            <h3 className="card__headline">This is where the headline goes</h3>
-          </div>
+          <Card tag="Damp Proofing" headline="This is one headline"/>
+        </div>
+        <div className="col-3">
+          <Card tag="Stonework" headline="This is another"/>
+        </div>
+        <div className="col-3">
+          <Card tag="Fencing" headline="This is a third"/>
         </div>
       </div>
     </div>
