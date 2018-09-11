@@ -1,16 +1,19 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "greg-milton-website",
+  "description": "Greg Milton website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Adam Morgan <adamccfc@gmail.com>",
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
+    "gatsby-plugin-sass": "next",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "node-sass": "^4.9.3"
   },
   "keywords": [
     "gatsby"
@@ -27,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/adamccfc/gregmilton"
   }
 }

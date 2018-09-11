@@ -17,5 +17,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto\:300,400,700,900`
+        ]
+      }
+    }
   ],
 }
