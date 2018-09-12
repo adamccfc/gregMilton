@@ -6,23 +6,27 @@ import Card from '../components/card'
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
-      <div className="row">
-        <div class="col-12">
-          <h1>Hi people</h1>
-          <p>Welcome to your new Gatsby site.</p>
-          <p>Now go build something great.</p>
-          <Link to="/page-2/">Go to page 2</Link>
-        </div>
-        <div className="col-6">
-          <Card tag="Damp Proofing" headline="This is one headline"/>
-        </div>
-        <div className="col-3">
-          <Card tag="Stonework" headline="This is another"/>
-        </div>
-        <div className="col-3">
-          <Card tag="Fencing" headline="This is a third"/>
-        </div>
+    <div className="hero">
+      <div className="hero__tag">Introducing</div>
+      <h1 className="hero__headline">Greg Milton</h1>
+      <p className="hero__content">A general builer who specialises in plastering and damp proofing. Based in Mountain Ash, Rhondda Cynon Taff, South Wales.</p>
+    </div>
+
+    <div className="grid-masonry">
+      <div class="grid-item grid-item--border-none">
+        <h1>Hi people</h1>
+        <p>Welcome to your new Gatsby site.</p>
+        <p>Now go build something great.</p>
+        <Link to="/page-2/">Go to page 2</Link>
+      </div>
+      <div className="grid-item span-2">
+        <Card tag="Damp Proofing" headline="This is one headline"/>
+      </div>
+      <div className="grid-item">
+        <Card tag="Stonework" headline="This is another"/>
+      </div>
+      <div className="grid-item">
+        <Card tag="Fencing" headline="This is a third"/>
       </div>
     </div>
   </Layout>
