@@ -1,8 +1,8 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-}
+// Global
+@import 'global/global';
+@import 'global/typography';
 
+// Layout
 @import 'layout/grid';
 
 // Components
