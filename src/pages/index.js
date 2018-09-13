@@ -14,7 +14,6 @@ const IndexPage = () => (
 
     <div className="grid-masonry">
       <div class="grid-item grid-item--border-none">
-        <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link>
