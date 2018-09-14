@@ -35,7 +35,7 @@ const IndexPage = () => (
         </div>
         <div className="col-3">
           <div className="service">
-            <div className="service__image service__image--plastering"></div>
+            <div className="service__image service__image--extensions"></div>
             <div className="service__tag">Extensions</div>
             <h3 className="service__title">Complete renovation, new build or an extension?</h3>
           </div>
