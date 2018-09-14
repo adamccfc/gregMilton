@@ -55,15 +55,14 @@ p {
 }
 
 a {
-  display: block;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #1991eb;
+  color: $brand-primary;
   font-weight: 400;
   text-decoration: none;
 
   &:hover {
-    color: #0c6cb5;
+    color: darken($brand-primary, 10%);
   }
 }
 

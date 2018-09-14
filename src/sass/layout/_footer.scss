@@ -1,0 +1,38 @@
+.footer {
+  background-color: $black;
+  padding: 50px 0;
+
+  &__title {
+    color: $white;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__divider {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .08);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  a {
+    opacity: 0.6;
+    -webkit-transition: color 400ms ease, opacity 400ms ease, -webkit-transform 400ms ease;
+    transition: color 400ms ease, opacity 400ms ease, -webkit-transform 400ms ease;
+    transition: color 400ms ease, transform 400ms ease, opacity 400ms ease;
+    transition: color 400ms ease, transform 400ms ease, opacity 400ms ease, -webkit-transform 400ms ease;
+    color: $white;
+    line-height: 24px;
+
+    &:hover {
+      color: $white;
+      opacity: 1;
+      -webkit-transform: translate(0px, -2px);
+      -ms-transform: translate(0px, -2px);
+      transform: translate(0px, -2px);
+    }
+  }
+}
