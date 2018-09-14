@@ -12,7 +12,7 @@ const Footer = ({ siteTitle }) => (
         </div>
         <div className="col-4">
           <h5 className="footer__title">Social</h5>
-          <a className="footer__link" href="#">Facebook</a>
+          {/* <a className="footer__link" href="#">Facebook</a> */}
         </div>
         <div className="col-12 footer__divider">
           <p>Designed and developed by <a href="http:www.adammorgan.wales" target="_blank" rel="noopener noreferrer">Adam Morgan</a>.</p>
