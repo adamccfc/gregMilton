@@ -1,0 +1,25 @@
+.service {
+
+  &__image {
+    border-radius: 8px;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 230px;
+    margin-bottom: 20px;
+
+    &--plastering {
+      background-image: url('../images/services/plastering.jpeg');
+    }
+
+    &--damp-proofing {
+      background-image: url('../images/services/damp-proofing.jpg');
+    }
+  }
+
+  &__tag {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+}
