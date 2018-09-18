@@ -42,4 +42,13 @@
     letter-spacing: 2px;
     opacity: 0.6;
   }
+
+  &__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: $black;
+  }
 }
