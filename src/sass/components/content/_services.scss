@@ -1,5 +1,9 @@
 .service {
 
+  &s {
+    margin: 40px 0;
+  }
+
   &__image {
     border-radius: 8px;
     background-position: 50% 50%;
@@ -17,6 +21,18 @@
 
     &--damp-proofing {
       background-image: url('../images/services/damp-proofing.jpg');
+    }
+
+    &--roofing {
+      background-image: url('../images/services/roofing.jpeg');
+    }
+
+    &--stonework {
+      background-image: url('../images/services/stonework.jpg');
+    }
+
+    &--landscaping {
+      background-image: url('../images/services/landscaping.jpg');
     }
   }
 
