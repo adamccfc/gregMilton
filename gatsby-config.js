@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'General Builder, R.C.T. South Wales | Greg Milton',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
