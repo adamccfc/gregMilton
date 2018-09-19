@@ -1,11 +1,14 @@
-// Variables
+//== Variables
 @import 'variables';
 
-// Global
+//== Global
 @import 'global/global';
 @import 'global/typography';
 
-// Layout
+//== Animations
+@import 'animations/animations';
+
+//== Layout
 @import 'layout/footer';
 @import 'layout/grid';
 
@@ -13,5 +16,5 @@
 @import 'components/card';
 @import 'components/hero';
 
-// Content
+//== Content
 @import 'components/content/services';

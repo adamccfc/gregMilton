@@ -7,9 +7,9 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <div className="hero">
-      <div className="hero__tag">Introducing</div>
-      <h1 className="hero__headline">Greg Milton</h1>
-      <p className="hero__content">A general builer who specialises in plastering and damp proofing. Based in Mountain Ash, Rhondda Cynon Taff, South Wales.</p>
+      <div className="hero__tag animation animation__fade-in-down animation__delay--0-5">Introducing</div>
+      <h1 className="hero__headline animation animation__fade-in-down animation__delay--1">Greg Milton</h1>
+      <p className="hero__content animation animation__fade-in-down animation__delay--1-5">A general builer who specialises in plastering and damp proofing. Based in Mountain Ash, Rhondda Cynon Taff, South Wales.</p>
     </div>
 
     <section className="services">

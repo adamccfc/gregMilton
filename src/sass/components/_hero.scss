@@ -11,7 +11,7 @@
   color: $white;
   margin-bottom: 20px;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 10%;
 
   @media (min-width: 375px) {
     height: 667px;
@@ -25,23 +25,32 @@
     height: 100vh;
   }
 
-  @media (min-width: $screen-sm) {
-    padding: 0 3rem;
-  }
-
   &__tag {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 0.6;
+
+    @media (min-width: $screen-md) {
+      font-size: 18px;
+    }
   }
 
   &__headline {
+    font-weight: 700;
 
+    @media (min-width: $screen-md) {
+      font-size: 66px;
+    }
   }
 
   &__content {
     font-size: 18px;
     color: $white;
+
+    @media (min-width: $screen-md) {
+      font-size: 28px;
+      line-height: 38px;
+    }
   }
 }
