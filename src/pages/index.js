@@ -20,13 +20,6 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
-            <div className="service">
-              <div className="service__image service__image--damp-proofing"></div>
-              <h3 className="service__tag">Damp Proofing</h3>
-              <p className="service__title">Eliminate damp problems in the home</p>
-            </div>
-          </div>
           <div className="col-3">
             <div className="service">
               <div className="service__image service__image--plastering"></div>
@@ -36,6 +29,13 @@ const IndexPage = () => (
           </div>
           <div className="col-3">
             <div className="service">
+              <div className="service__image service__image--damp-proofing"></div>
+              <h3 className="service__tag">Damp Proofing</h3>
+              <p className="service__title">Eliminate damp problems in the home</p>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="service">
               <div className="service__image service__image--extensions"></div>
               <h3 className="service__tag">Extensions</h3>
               <p className="service__title">Complete renovation, new build or an extension?</p>
@@ -43,6 +43,13 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
+          <div className="col-6">
+            <div className="service">
+              <div className="service__image service__image--stonework"></div>
+              <h3 className="service__tag">Stonework</h3>
+              <p className="service__title">Stonework construction, restoration and repair</p>
+            </div>
+          </div>
           <div className="col-3">
             <div className="service">
               <div className="service__image service__image--roofing"></div>
@@ -55,13 +62,6 @@ const IndexPage = () => (
               <div className="service__image service__image--landscaping"></div>
               <h3 className="service__tag">Landscaping</h3>
               <p className="service__title">Garden design, paving and driveways</p>
-            </div>
-          </div>
-          <div className="col-6">
-            <div className="service">
-              <div className="service__image service__image--stonework"></div>
-              <h3 className="service__tag">Stonework</h3>
-              <p className="service__title">Stonework construction, restoration and repair</p>
             </div>
           </div>
         </div>
